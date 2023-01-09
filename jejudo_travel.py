@@ -14,14 +14,12 @@ class WindowClass(QMainWindow, form_class):
         self.stackedWidget.setCurrentIndex(0)
 
         self.btn_home.clicked.connect(self.home)
-        self.btn_search.clicked.connect(self.search)
+        self.btn_search.clicked.connect(self.search1)
 
-    def search(self):
-        print('조회')
+    def search1(self):
         self.stackedWidget.setCurrentIndex(1)
 
     def home(self):
-        print('메인으로')
         self.stackedWidget.setCurrentIndex(0)
 
 
