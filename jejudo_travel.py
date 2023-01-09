@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5 import uic
 
 # ui파일 연결
-form_class = uic.loadUiType("ui_jeju1.ui")[0]
+form_class = uic.loadUiType("ui_jeju.ui")[0]
 
 
 class WindowClass(QMainWindow, form_class):
