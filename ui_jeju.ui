@@ -270,8 +270,6 @@ font: 75 12pt &quot;맑은 고딕&quot;;</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="bada.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
