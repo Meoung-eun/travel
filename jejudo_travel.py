@@ -13,6 +13,18 @@ class WindowClass(QMainWindow, form_class):
         # ui 시작 인덱스 0으로 고정
         self.stackedWidget.setCurrentIndex(0)
 
+        self.btn_home.clicked.connect(self.home)
+        self.btn_search.clicked.connect(self.search)
+
+    def search(self):
+        print('조회')
+        self.stackedWidget.setCurrentIndex(1)
+
+    def home(self):
+        print('메인으로')
+        self.stackedWidget.setCurrentIndex(0)
+
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
