@@ -164,23 +164,6 @@ font: 75 15pt &quot;맑은 고딕&quot;;</string>
        <string>조회하기</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radio">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>270</y>
-        <width>181</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255, 160);
-font: 75 13pt &quot;맑은 고딕&quot;;</string>
-      </property>
-      <property name="text">
-       <string>전기차 충전소 선택</string>
-      </property>
-     </widget>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QTableWidget" name="table">
