@@ -14,9 +14,9 @@ class WindowClass(QMainWindow, form_class):
         self.stackedWidget.setCurrentIndex(0)
 
         self.btn_home.clicked.connect(self.home)
-        self.btn_search.clicked.connect(self.search1)
+        self.btn_search.clicked.connect(self.search)
 
-    def search1(self):
+    def search(self):
         self.stackedWidget.setCurrentIndex(1)
 
     def home(self):
