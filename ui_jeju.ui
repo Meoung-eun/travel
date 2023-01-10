@@ -27,13 +27,16 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>2.bada.jpg</pixmap>
+     <pixmap>bada.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -44,14 +47,17 @@
     </property>
     <property name="font">
      <font>
-      <family>맑은 고딕</family>
-      <pointsize>28</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
+      <family>Bahnschrift</family>
+      <pointsize>30</pointsize>
+      <weight>9</weight>
+      <italic>true</italic>
+      <bold>false</bold>
       <underline>false</underline>
       <strikeout>false</strikeout>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 30pt &quot;Bahnschrift&quot;;</string>
     </property>
     <property name="text">
      <string>제주도 관광지 추천 프로그램</string>
@@ -137,6 +143,9 @@ color: rgb(47, 47, 47);
 font: 75 11pt &quot;맑은 고딕&quot;;
 </string>
       </property>
+      <property name="verticalHeaderFormat">
+       <enum>QCalendarWidget::NoVerticalHeader</enum>
+      </property>
      </widget>
      <widget class="QPushButton" name="btn_search">
       <property name="geometry">
@@ -197,6 +206,9 @@ font: 75 12pt &quot;맑은 고딕&quot;;</string>
       </column>
      </widget>
      <widget class="QLineEdit" name="date_edit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
         <x>30</x>
@@ -255,7 +267,7 @@ font: 75 12pt &quot;맑은 고딕&quot;;</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>1.btn_home.jpg</normaloff>1.btn_home.jpg</iconset>
+      <normaloff>2.btn_home.png</normaloff>2.btn_home.png</iconset>
     </property>
     <property name="iconSize">
      <size>
