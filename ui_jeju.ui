@@ -124,7 +124,7 @@ font: 75 16pt &quot;맑은 고딕&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>제주도</string>
+        <string>제주</string>
        </property>
       </item>
      </widget>
@@ -205,37 +205,6 @@ font: 75 12pt &quot;맑은 고딕&quot;;</string>
        </property>
       </column>
      </widget>
-     <widget class="QLineEdit" name="date_edit">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>20</y>
-        <width>281</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);
-font: 75 12pt &quot;맑은 고딕&quot;;</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="text_edit">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>80</y>
-        <width>281</width>
-        <height>121</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);
-font: 75 12pt &quot;맑은 고딕&quot;;</string>
-      </property>
-     </widget>
      <widget class="QWidget" name="verticalLayoutWidget">
       <property name="geometry">
        <rect>
@@ -246,6 +215,32 @@ font: 75 12pt &quot;맑은 고딕&quot;;</string>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="vertical"/>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>301</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="date_edit">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>301</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
     </widget>
    </widget>
