@@ -82,7 +82,7 @@
      <enum>QFrame::Plain</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QComboBox" name="combo">
@@ -148,6 +148,9 @@ font: 75 11pt &quot;맑은 고딕&quot;;
       </property>
      </widget>
      <widget class="QPushButton" name="btn_search">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="geometry">
        <rect>
         <x>520</x>
@@ -192,7 +195,7 @@ font: 75 15pt &quot;맑은 고딕&quot;;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 75 12pt &quot;맑은 고딕&quot;;</string>
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
       </property>
       <column>
        <property name="text">
@@ -202,6 +205,11 @@ font: 75 12pt &quot;맑은 고딕&quot;;</string>
       <column>
        <property name="text">
         <string>설명</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>전기차충전소</string>
        </property>
       </column>
      </widget>
