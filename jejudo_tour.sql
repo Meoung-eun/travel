@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.18, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: jejudo
+-- Host: localhost    Database: jejudo
 -- ------------------------------------------------------
 -- Server version	8.0.18
 
@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `tour`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tour` (
   `area` text,
-  `indoor(out)` text,
+  `indoor` text,
   `tour_site` text,
   `explain` text,
   `elec_charger` text
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-09 19:04:45
+-- Dump completed on 2023-01-18 12:15:49
